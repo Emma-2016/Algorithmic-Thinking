@@ -1,0 +1,25 @@
+What is algorithmic thinking?
+Five steps:
+1. understanding the problem, what users want from your program?
+2. formulating the problem, what is the input and output?
+3. developing an algorithm for the problem.
+4. implementing the algorithm in python or other language.
+5. run the program on the data and answering the original question.
+
+
+Pseudo code
+Pseudo-code is a language that is very powerful for describing algorithms.
+It is somewhere between formal language that has exactly syntax and English or other natural language.
+It is not as formal as a programming language, and give you the room for using structures or using English in them.
+Reason to use pseudo code is that pseudo-code tells us what we want to do, what we want to do in terms of algorithm, not how we do it.
+Pseudo-code gives us the flexibility of describing what we want to do.
+It also allows us to have the flexibility to specify how I want to do it.
+Example in the viedo shows two ways to assign the smallest element in a list to a variable.
+
+
+The small- world problem  #Example to employ algorithmic thinking
+1. understanding the problem -- Using Facebook data, if is the world is small? If I take two account randomly, what is distance between these two accounts?
+2. formulating the problem -- how we formulate the input to the problem. In this case, it make most sense to think the input in tern of graph (nodes and edges).
+  Next, the output. One way to look at this is by producing what we call a distribution of the pairwise distance. 
+  Define distance. In this case, it is basically the minimum number of connections that will take me form individual i to individual j.
+  In this way, we formulate the problem as a graph theoretic problem. This is a proram involves graph.  
