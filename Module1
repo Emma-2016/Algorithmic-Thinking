@@ -23,3 +23,31 @@ The small- world problem  #Example to employ algorithmic thinking
   Next, the output. One way to look at this is by producing what we call a distribution of the pairwise distance. 
   Define distance. In this case, it is basically the minimum number of connections that will take me form individual i to individual j.
   In this way, we formulate the problem as a graph theoretic problem. This is a proram involves graph.  
+
+Graph
+There are two kinds of graphs, one is directed graph and the other is undirected graph.
+How to represent Graph? G(V, E), where V is set of nodes and E is set of edges.
+There are two ways to reprsent nodes and edges. One is adjacency list, and other is adjacency matrix.
+If the graph is sparse, it is better to use adjacency list, whose first column is the nodes and the second column is the adjacent node list.
+If the graph is dense, it is better to use adjacency matrix, in which 1 means there is an edge between the two nodes.
+In terms of undirected graph, we say neighbors; In terms of directed graph, we say in-degree or out-degree.
+Not exactly. In terms of undirected graph, we talk about the degree of a node, which means how many neighbour does the node have.
+In terms of directed graph, we talk about the in-degree and out-degree of a node.
+
+Path:
+The length of a path is measured in terms of the number of edges.
+We say a path is simple if it does not use the same node more than once.
+The distance between tow nodes is the smallest length of path between these two nodes.
+
+A brute force
+To check every possilbe case starting from one, going to two.
+Brute force is literally follows the definition of the problem to try to slove it.
+We need math skill to design good algorithm.
+
+efficiency
+space and speed ==> memory and time
+When we talk about efficiency, we do not touch the actual implementation in a programming lanauage.
+We need to start thinking about what kind of details are assumed in the algorithm.
+Different representation of the same input have great difference on the efficency.
+When we analyze the running time of an algorithm, we have to make assumption about representation of the data.
+About implementation details and so on.
